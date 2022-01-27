@@ -403,9 +403,9 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
         if (mode === MODE_ENDLESS) return '';
         if (score < 64) return '-30,000,000 Social Credit';
         if (score ==  64) return 'Execution Date: 明天黎明';
-        if (score > 64) return '+15 Social Credit';
-        if (score >= 100) return '+69420 Social Credit';
-        if (score >= 150) return 'Zhong Xina';
+        if (score > 64 && score <= 100) return '+15 Social Credit';
+        if (score > 100 && score <=150) return '+69420 Social Credit';
+        if (score > 150) return 'Zhong Xina';
         return '人？';
     }
 
