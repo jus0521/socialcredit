@@ -14,6 +14,4 @@ Source code: https://github.com/arcxingye/EatKano
 
 Grind Social Credits
 
-[线上版本](https://xingye.me/game/eatkano/index.php)
-|
-[Github Page](https://arcxingye.github.io/EatKano/index.html)
+[Play here!](https://jus0521.github.io/socialcredit/)
